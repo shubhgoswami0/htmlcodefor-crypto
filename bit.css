@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(download.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    align-content:left ;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1 a{
+    color:#fff;
+    font-size: 80px;
+}
+p{
+    color:#fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+.button1{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #000;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform  0.5s;
+}
+.c1{
+    background-image:url(bitcoin-3089728_1280.webp);
+}
+.c2{
+    background-image: url(ehereum.jpg);
+}
+.c3{
+    background-image: url(download1.jpg);
+}
+.c4{
+    background-image: url(download3.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #211a0a;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    
+  }
+  
+  canvas {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .head1 {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #4a4360;
+    color: #fff;
+  }
+  
+  .head1 h1 {
+    font-size: 2em;
+  }
+  
+  .head1 p {
+    margin-top: 0.5em;
+  }
+  
+  .main1 {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+  }
+  
+  section {
+    background: #000;
+    padding: 1.5em;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:#f4be36;
+  }
+  
+  section h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5em;
+  }
+  
+  section p {
+    margin-bottom: 0.5em;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .details {
+    display: none;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid #000;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+  }
+  .head2 {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em;
+  }
+  
+  .head2 h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+  }
+  
+  .head2 p {
+    font-size: 1.2em;
+  }
+  
+  /* Main section styling */
+  .main2 {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+  }
+  
+  /* Section styling */
+  .div2 section {
+    background-color: #000;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:#2c3e50;
+  }
+  
+  .div2 section h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5em;
+  }
+  
+  .div2 section p {
+    margin-bottom: 1em;
+  }
+  
+  /* Pros and Cons styling */
+  .pros, .cons {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-top: 1em;
+  }
+  
+  .pros h3, .cons h3 {
+    color: #27ae60;
+    margin-bottom: 0.5em;
+  }
+  
+  .cons h3 {
+    color: #e74c3c;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 1em;
+  }
+  
+
+ 
